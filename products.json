@@ -1,0 +1,5 @@
+{
+    "prices":[700, 900],
+    "resources_consumption": [[3, 5],[1, 2],[50, 20]],
+    "resources_limit":[3600, 1600, 48000]
+}
