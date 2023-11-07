@@ -45,7 +45,7 @@ To get started with this project, follow the steps below:
 
 ## Requirements
 
-    Python 3
+    Python 3.7.9+
     Gurobi (Make sure it is installed and configured properly)
 
 ## Contributing
