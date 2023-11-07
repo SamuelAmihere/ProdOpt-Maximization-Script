@@ -22,33 +22,41 @@ The optimization model is as follows:
 
 The script can be run with the following command-line options:
 
-bash
+bash:
 ```
 ./script_name.py --model [model_name]
-
+```
     --model: The name of the chosen model.
     --products(prompt): Names of the products to produce, separated by a tab.
-```
-windows
+
+windows:
 ```
 python script_name.py --model [model_name]
-
+```
     --model: The name of the chosen model.
     --products(prompt): Names of the products to produce, separated by a tab.
-```
+
 
 ## Getting Started
 
 To get started with this project, follow the steps below:
 
-    Clone the repository: git clone https://github.com/SamuelAmihere/ProdOpt-Maximization-Script.git
-    Install the necessary dependencies: pip install -r requirements.txt
-    Run the script with the specified options.
+Clone the repository: 
+```
+git clone https://github.com/SamuelAmihere/ProdOpt-Maximization-Script.git
+```
+
+Install the necessary dependencies: 
+```
+pip install -r requirements.txt
+```
+
+Run the script with the specified options.
 
 ## Requirements
 
-    Python 3.7.9+
-    Gurobi (Make sure it is installed and configured properly)
+Python 3.7.9+
+Gurobi (Make sure it is installed and configured properly)
 
 ## Contributing
 
