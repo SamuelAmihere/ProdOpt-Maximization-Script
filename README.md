@@ -9,6 +9,7 @@ Let's define the variables as follows:
 
 - **x1**: Number of the first product produced in a day.
 - **x2**: Number of the second product produced in a day.
+...
 
 The optimization model is as follows:
 
@@ -40,7 +41,7 @@ python script_name.py --model [model_name]
 
 To get started with this project, follow the steps below:
 
-    Clone the repository: git clone https://github.com/username/ProdOpt-Maximization-Script.git
+    Clone the repository: git clone https://github.com/SamuelAmihere/ProdOpt-Maximization-Script.git
     Install the necessary dependencies: pip install -r requirements.txt
     Run the script with the specified options.
 
