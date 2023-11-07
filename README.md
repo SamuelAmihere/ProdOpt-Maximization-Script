@@ -21,10 +21,17 @@ The optimization model is as follows:
 The script can be run with the following command-line options:
 
 ```bash
-python script_name.py --model [model_name]
+./script_name.py --model [model_name]
+```
     --model: The name of the chosen model.
     --products(prompt): Names of the products to produce, separated by a tab.
+
+```windows
+python script_name.py --model [model_name]
 ```
+    --model: The name of the chosen model.
+    --products(prompt): Names of the products to produce, separated by a tab.
+
 
 ## Getting Started
 
