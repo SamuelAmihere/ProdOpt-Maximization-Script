@@ -1,6 +1,7 @@
 # Production Optimization Script
 
-This Python script is designed to optimize the production of two products in a day, using a specific mathematical model. It utilizes mathematical optimization techniques to determine the best production quantities for maximum profitability. 
+
+This Python script is designed to optimize the production of some products in a day, using a specific mathematical model. It utilizes mathematical optimization techniques to determine the best production quantities for maximum profitability. 
 
 ## Mathematical Formulation
 

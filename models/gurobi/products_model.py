@@ -77,9 +77,11 @@ def print_solutions(prices, resources_consumption,
             model: Model's name
     """
 
-    if len(products) != 2:
+    if len(products) != len(prices):
         print("You can't model for {:d} product{}".format(len(products),
                 '' if len(products) < 2 else 's'))
+        print("Based on your data, you must enter {:d} product{}.".format(len(prices),
+                '' if len(prices) < 2 else 's'))
         exit(1)
     eg1 = build_model(model,products, prices, resources_consumption, resources_limit)
     modelSolutions = getSolutions([eg1])

@@ -22,11 +22,13 @@ from utils.data import load_json_data
 
 
 @click.command()
-@click.option('--products', prompt="2 products (separated by tab)",
+@click.option('--products', prompt="products (separated by tab)",
               help='names of products to produce')
 @click.option('--model', default='eg1',
               help='names of modele')
-def consoleApp(products:str, model:str)->None:
+@click.option('--data_src', default='products.json',
+              help='Source of data')
+def consoleApp(products:str, model:str, data_src)->None:
     """Finds optimal solutions for products.
     
         Args:
@@ -35,7 +37,8 @@ def consoleApp(products:str, model:str)->None:
             model: Model name entered as an option at the terminal.
     """
     # -----------------Data-------------------------
-    data = load_json_data("products.json")
+    data = load_json_data(data_src)
+    
     if data == None:
         print("No data for the model!")
         exit(1)
@@ -47,4 +50,5 @@ def consoleApp(products:str, model:str)->None:
     print_solutions(**data)
 
 if __name__ == '__main__':
+    
     consoleApp()
