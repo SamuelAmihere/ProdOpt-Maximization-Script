@@ -11,10 +11,10 @@ Let's define the variables as follows:
 
 The optimization model is as follows:
 
-    max 70x1 + 900x2\n
-    s.t. 3x1 +   5x2 <= 3600 (wood)<br>
-          x1 +   2x2 <= 1600 (labor)<br>
-        50x1 +  20x2 <= 48000 (machine)<br>
+    max 70x1 + 900x2
+    s.t. 3x1 +   5x2 <= 3600 (wood)
+          x1 +   2x2 <= 1600 (labor)
+        50x1 +  20x2 <= 48000 (machine)
 
           x1,x2      >= 0.
 
